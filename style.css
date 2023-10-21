@@ -1,9 +1,74 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 94%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
 }
 
 main {
     background-color: white;
     width: 375px;
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-bottom-right-radius: 150px;
 }
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .day-input, .month-input, .year-input {
+    width: 50px; ;
+} */
+.day-input, .month-input, .year-input, input {
+    width: 75px; 
+}
+input {
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid hsl(0, 0%, 86%);
+    margin-top: 10px; 
+}
+
+input:hover {
+    cursor: pointer;
+    border: 1px solid hsl(259, 100%, 65%);
+    transition: all 500ms;
+
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: hsl(0, 1%, 44%);
+    
+}
+
+.divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.icon-arrow {
+    background-color: hsl(259, 100%, 65%);
+    padding: 20px;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+}
+.icon-arrow:hover {
+    background-color: hsl(0, 0%, 8%);
+    transition: all 500ms;
+    cursor: pointer;
+}
+
