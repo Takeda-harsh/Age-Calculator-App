@@ -101,6 +101,10 @@ hr {
     cursor: pointer;
 }
 
+.icon-arrow {
+    position: absolute;
+}
+
 .years-result, .months-result, .days-result {
     color: hsl(259, 100%, 65%);
     
@@ -146,6 +150,10 @@ h1 {
         align-items: center;
         justify-content: center;
         
+    }
+
+    .icon-arrow {
+        position: relative;
     }
 
     h1 {
